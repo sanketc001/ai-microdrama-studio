@@ -11,12 +11,15 @@ project directory.
 <!-- showcase -->
 ![Director's console](docs/console.jpg)
 
-**From still to edit to moving shot.** A scene still (Z-Image), the same frame re-lit as a rainy
-night with Flux.2 Klein image editing, and the LTX-Video clip rendered from it:
+**A rendered scene.** A 10-second shot with on-screen dialogue, rendered in a single LTX-Video
+pass with synced audio ([watch with sound](docs/demo.mp4)):
+
+![10-second LTX-Video scene of a character talking in a cafe](docs/demo.gif)
+
+**Still to edit.** A scene still (Z-Image) and the same frame re-lit as a rainy night with
+Flux.2 Klein image editing:
 
 ![Generated still and its Flux.2 night edit](docs/still_to_edit.jpg)
-
-![LTX-Video clip rendered from the edited frame](docs/clip.gif)
 
 Character portraits generated for the cast library:
 
