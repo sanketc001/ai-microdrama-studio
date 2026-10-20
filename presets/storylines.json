@@ -1,0 +1,157 @@
+[
+  {
+    "title": "Checkpoint of Lost Letters",
+    "logline": "A postal clerk finds a sealed letter addressed to 'For You, If You Remember' and must decide whether to deliver a memory or keep the secret.",
+    "premise": "In a tiny post office, a routine shift turns into an emotional test when an anonymous envelope triggers memories for the clerk and commuters, forcing a choice between reopening a wound or preserving quiet life.",
+    "beats": [
+      {
+        "summary": "Discovery — clerk finds the sealed letter with no return address.",
+        "scene": "Close-up on worn envelope; camera pushes in on clerk's trembling hands."
+      },
+      {
+        "summary": "Recognition — a commuter recognizes handwriting in the waiting line.",
+        "scene": "Over-the-shoulder shot of commuter staring, heartbeat sound design rising."
+      },
+      {
+        "summary": "Decision — clerk imagines consequences and slips the letter into his coat or into the outgoing bag.",
+        "scene": "Split-screen of two imagined futures: confrontation vs. calm, then a single decisive hand."
+      }
+    ],
+    "suggested_characters": [
+      "Postal clerk (30s)",
+      "Commuter woman (60s)",
+      "Young man in line (20s)"
+    ],
+    "suggested_scenes": [
+      "Small-town post office counter",
+      "Rain-slick street outside",
+      "Interior flashback of a kitchen table"
+    ],
+    "id": "a660e4a254b5",
+    "custom": false
+  },
+  {
+    "title": "Greenlight",
+    "logline": "A traffic light technician who fixes streetlights every night glimpses a stalled driver whose car holds a secret that could change both their lives.",
+    "premise": "During a midnight repair, a traffic technician encounters a stranded driver trying to salvage an important object. A brief collaboration under sodium glow becomes an intimate exchange of regrets and small courage.",
+    "beats": [
+      {
+        "summary": "Routine repair — technician climbs the pole, hears muffled sobs below.",
+        "scene": "Wide shot of empty intersection, warm streetlamp glow; muffled audio from below."
+      },
+      {
+        "summary": "Unexpected meeting — technician helps the driver retrieve a trunk item: a child's drawing.",
+        "scene": "Low-angle shot from the pole showing driver and drawing, light flicker revealing tears."
+      },
+      {
+        "summary": "Moment of connection — both share one truth and make a small transformative choice.",
+        "scene": "Two-shot in the car's open trunk; handoff of the drawing, the light turns green as dawn approaches."
+      }
+    ],
+    "suggested_characters": [
+      "Traffic technician (40s)",
+      "Stalled driver (30s)",
+      "Child's voice (off)"
+    ],
+    "suggested_scenes": [
+      "Empty intersection at night",
+      "Open trunk with scattered belongings",
+      "Dawn-lit curb with first commuter bus"
+    ],
+    "id": "2051cd6717b3",
+    "custom": false
+  },
+  {
+    "title": "Last Ticket",
+    "logline": "At a closing train station, a ticket seller offers the final paper ticket to a stranger whose destination is unknown — the ticket becomes a promise of escape.",
+    "premise": "As a historic station shuts down, the ticket seller must choose who receives the symbolic last ticket. A lone traveler arrives seeking more than travel—seeking permission to leave a life behind.",
+    "beats": [
+      {
+        "summary": "Announcement — station announces final day; people shuffle with nostalgia.",
+        "scene": "Platform PA system crackles; montage of old posters and clock hands."
+      },
+      {
+        "summary": "Plea — a stranger asks for a single ticket to 'anywhere'.",
+        "scene": "Close-up on hands exchanging coins; eyes exchanged in half-light."
+      },
+      {
+        "summary": "Release — seller tears the last ticket and watches the train depart with the stranger aboard.",
+        "scene": "Long lens shot as the train leaves, ticket seller lets go, expression softens into relief."
+      }
+    ],
+    "suggested_characters": [
+      "Ticket seller (65)",
+      "Stranger traveler (25)",
+      "Station cleaner (50s)"
+    ],
+    "suggested_scenes": [
+      "Historic train platform",
+      "Ticket booth with fading paint",
+      "Departing train under overcast sky"
+    ],
+    "id": "f8137bf90358",
+    "custom": false
+  },
+  {
+    "title": "Echo at 3 A.M.",
+    "logline": "A sound engineer isolated in a recording studio captures a repeated anomaly in an old voicemail — a voice calling for help that might be from his past.",
+    "premise": "While restoring archival tapes, a sound engineer identifies a hidden voice that mirrors a long-buried family tragedy. Confronting the audio forces him to face whether to reveal the truth to his estranged sister.",
+    "beats": [
+      {
+        "summary": "Isolation — late-night restoration work, headphones on, screen glow.",
+        "scene": "Tight frame on waveform undulations; distant city hum outside."
+      },
+      {
+        "summary": "Recognition — a faint phrase in the tape matches a childhood lullaby.",
+        "scene": "Extreme close-up on eyes widening; audio filter reveals clearer words."
+      },
+      {
+        "summary": "Confrontation — he plays the cleaned clip to his sister or keeps it silent, deciding whether truth heals or harms.",
+        "scene": "Two versions: one where he presses call and another where he deletes the file, each ending on his hand over the send/delete key."
+      }
+    ],
+    "suggested_characters": [
+      "Sound engineer (35)",
+      "Estranged sister (33)",
+      "Archivist mentor (50s)"
+    ],
+    "suggested_scenes": [
+      "Dim recording studio filled with reels",
+      "Kitchen table for late-night call",
+      "City skyline through rain-streaked window"
+    ],
+    "id": "618ec6a8b9e6",
+    "custom": false
+  },
+  {
+    "title": "Shelf of Small Wonders",
+    "logline": "A struggling toymaker discovers a misplaced prototype that brings a shoplifter's childhood memory back, prompting an unexpected act of restitution.",
+    "premise": "In a cramped workshop, a handmade toy sparks a flash of recognition in a young shoplifter. The brief encounter between maker and taker becomes a tender reckoning about value, ownership, and the meaning of repair.",
+    "beats": [
+      {
+        "summary": "Accident — maker notices a tiny, unique toy missing from the workbench.",
+        "scene": "Macro shots of wood shavings and a small carved bird; empty groove where it sat."
+      },
+      {
+        "summary": "Confrontation — maker catches a youth with the toy; instead of anger, listens to their story.",
+        "scene": "Face-to-face in the alley behind the shop, toy cradled between them under neon light."
+      },
+      {
+        "summary": "Restoration — they fix the toy together; the maker offers to teach instead of punish.",
+        "scene": "Warm bokeh in the workshop as hands sand and paint, a tentative smile exchanged."
+      }
+    ],
+    "suggested_characters": [
+      "Toymaker (50s)",
+      "Young shoplifter (16)",
+      "Regular customer (40s)"
+    ],
+    "suggested_scenes": [
+      "Cluttered toy workshop",
+      "Shop back-alley beneath a neon sign",
+      "Wooden workbench with jars of paint"
+    ],
+    "id": "f329e604dbb3",
+    "custom": false
+  }
+]

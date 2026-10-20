@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Aurora Warm",
+    "tags": "warm,empathetic,mid,breathy,clear",
+    "sample_text": "Good morning — I’m here with your schedule. Take a deep breath; we’ll do this together.",
+    "id": "19b338ac2231",
+    "custom": false
+  },
+  {
+    "name": "Bastion Command",
+    "tags": "authoritative,deep,firm,low-resonance,calm",
+    "sample_text": "Attention: proceed to Gate 4 immediately. Remain calm and follow instructions.",
+    "id": "dcf1064f536c",
+    "custom": false
+  },
+  {
+    "name": "Spark Bright",
+    "tags": "cheerful,high-energy,bright,slight-sparkle,fast",
+    "sample_text": "Hey there! Ready to explore? [laugh] Let’s dive into something fun!",
+    "id": "4f78cf1493ff",
+    "custom": false
+  },
+  {
+    "name": "Velvet Narrative",
+    "tags": "storyteller,warm,soft-paced,rich-harmonics,expressive",
+    "sample_text": "On that stormy night, she discovered a letter that changed everything.",
+    "id": "f3ba9793d602",
+    "custom": false
+  },
+  {
+    "name": "Nimbus Whisper",
+    "tags": "intimate,soft,close-mic,breathy,slow",
+    "sample_text": "Psst... I’ve got a secret just for you. Lean in — listen closely.",
+    "id": "4a5885299702",
+    "custom": false
+  },
+  {
+    "name": "Pilot Neutral",
+    "tags": "neutral,clear,even-tone,informative,accessible",
+    "sample_text": "System update complete. All functions are nominal and ready for use.",
+    "id": "17c186b2502d",
+    "custom": false
+  }
+]

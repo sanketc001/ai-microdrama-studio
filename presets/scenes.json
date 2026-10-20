@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Rooftop Farewell",
+    "description": "Two former lovers share a terse, rain-soaked goodbye on a city rooftop as thunder rumbles and neon reflections smear across puddles.",
+    "setting_prompt": "Establishing still of a high-rise rooftop at night in heavy rain: slick concrete, shallow puddles reflecting neon signs from surrounding skyscrapers (pinks, blues, electric greens), a low concrete parapet, a tilted metal chair, steam rising from a vent, distant blurred traffic lights and glimmering skyline. Overcast sky with occasional lightning, raindrops frozen in motion, cinematic lens flare, shallow depth of field focusing on a pair of wet footprints leading to the parapet. Moody urban cinematography, 35mm film grain, dramatic rim lighting, high contrast.",
+    "mood": "Melancholic, tense",
+    "id": "725b16fcaa2c",
+    "custom": false
+  },
+  {
+    "name": "Subway Echo",
+    "description": "A lone musician plays a cracked violin on an abandoned midnight subway platform; his music wakes memories in a passing commuter who pauses to listen.",
+    "setting_prompt": "Empty underground subway platform at midnight: dim fluorescent lighting flickers, chipped ceramic tiles with graffiti and grime, a rusted bench, an old poster peeling from the wall, scattered newspapers, a single illuminated tunnel opening receding into darkness. A lone violin case open on the platform, soft puddle reflections on the tiled floor, deep shadows and a damp, echoing atmosphere. Wide-angle cinematic composition, cool desaturated palette with a warm spotlight on the violin case, long shadows, subtle motion blur to suggest reverberation.",
+    "mood": "Haunting, introspective",
+    "id": "b223b40744f1",
+    "custom": false
+  },
+  {
+    "name": "Kitchen Morning Argument",
+    "description": "A sunlit breakfast dispute: spilled coffee, a slammed cupboard, and eggs cooling on the counter as two people clash over an unspoken secret.",
+    "setting_prompt": "Cozy suburban kitchen at dawn: warm golden sunlight streaming through a curtained window onto a cluttered wooden table, a tipped ceramic mug with coffee mid-splash, cracked eggs on a plate, scattered mail, a hanging pot rack, tiled backsplash with vintage pattern, steam from a kettle. Intimate tableau shot from chest height capturing motion—a hand reaching for a towel, a door slightly ajar—soft lens, warm color grading, naturalistic details, shallow depth of field focusing on the spilled coffee and broken shell.",
+    "mood": "Domestic, emotionally charged",
+    "id": "72d68c4617dc",
+    "custom": false
+  },
+  {
+    "name": "Desert Outpost Dusk",
+    "description": "A stranded traveler arrives at a lonely gas station at dusk; neon buzzes, a radio murmurs, and a distant storm approaches over red sand dunes.",
+    "setting_prompt": "Lone roadside gas station in a vast desert at dusk: sun low on the horizon casting long orange-purple shadows, weathered pumps with flickering neon, a tin-roofed convenience shack emitting warm light, scuffed tire tracks in red sand, a rusted pickup parked askew, tumbleweeds, a distant thunderhead forming, dramatic sky with streaks of magenta and indigo. High-dynamic-range cinematic look, wide composition, nostalgic retro signage, textured sand grains visible, moody contrast between neon and natural light.",
+    "mood": "Lonely, expectant",
+    "id": "8554488c3148",
+    "custom": false
+  },
+  {
+    "name": "Hospital Corridor Waiting",
+    "description": "A tired parent waits outside a closed operating room, watching fluorescent lights hum, clutching a child's sweater while time stretches thin.",
+    "setting_prompt": "Long hospital corridor at night: glossy linoleum reflecting long rows of sterile fluorescent lights, closed double doors with a small window and surgical nameplate, a lone plastic chair with a folded child's sweater on it, a wall clock showing late hour, vending machine glow at the far end, muted cool palette with a single warm pool of light near the doors. Cinematic clinical realism, shallow depth of field focused on sweater and hands, subtle film grain, quiet tension, clean compositional lines leading to the doors.",
+    "mood": "Anxious, quiet",
+    "id": "22393d598b7b",
+    "custom": false
+  },
+  {
+    "name": "Empty Carnival Dawn",
+    "description": "Just before sunrise, a deserted carnival creaks: ferris wheel silhouettes against pale sky, forgotten cotton-candy cones, and a single balloon drifting away.",
+    "setting_prompt": "Abandoned carnival at first light: massive ferris wheel and carousel silhouettes against a pastel dawn sky, empty ticket booth with flapping bunting, scattered cotton-candy cones stuck to benches, a deflated clown balloon caught on a fence, low fog hugging the ground, strings of unlit bulbs drooping. Soft pastel color grading, panoramic composition with high contrast silhouettes, cinematic lingering stillness, subtle wind motion in bunting, nostalgic yet eerie atmosphere.",
+    "mood": "Eerie, wistful",
+    "id": "80e5edaa5f47",
+    "custom": false
+  }
+]

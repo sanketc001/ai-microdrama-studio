@@ -1,0 +1,550 @@
+{
+  "3": {
+    "inputs": {
+      "vae_name": "ltx-2.3-22b-dev_video_vae.safetensors",
+      "device": "main_device",
+      "weight_dtype": "bf16"
+    },
+    "class_type": "VAELoaderKJ",
+    "_meta": {
+      "title": "Video VAELoader"
+    }
+  },
+  "4": {
+    "inputs": {
+      "vae_name": "ltx-2.3-22b-dev_audio_vae.safetensors",
+      "device": "main_device",
+      "weight_dtype": "bf16"
+    },
+    "class_type": "VAELoaderKJ",
+    "_meta": {
+      "title": "Audio VAELoader"
+    }
+  },
+  "5": {
+    "inputs": {
+      "frame_rate": [
+        "46",
+        5
+      ],
+      "positive": [
+        "46",
+        1
+      ],
+      "negative": [
+        "26",
+        0
+      ]
+    },
+    "class_type": "LTXVConditioning",
+    "_meta": {
+      "title": "LTXVConditioning"
+    }
+  },
+  "7": {
+    "inputs": {
+      "video_latent": [
+        "8",
+        2
+      ],
+      "audio_latent": [
+        "46",
+        3
+      ]
+    },
+    "class_type": "LTXVConcatAVLatent",
+    "_meta": {
+      "title": "LTXVConcatAVLatent"
+    }
+  },
+  "8": {
+    "inputs": {
+      "scale_by": 0.5,
+      "upscale_method": "bicubic",
+      "positive": [
+        "5",
+        0
+      ],
+      "negative": [
+        "5",
+        1
+      ],
+      "vae": [
+        "3",
+        0
+      ],
+      "latent": [
+        "46",
+        2
+      ],
+      "guide_data": [
+        "46",
+        4
+      ]
+    },
+    "class_type": "LTXDirectorGuide",
+    "_meta": {
+      "title": "LTX Director Guide"
+    }
+  },
+  "9": {
+    "inputs": {
+      "cfg": 1,
+      "model": [
+        "46",
+        0
+      ],
+      "positive": [
+        "8",
+        0
+      ],
+      "negative": [
+        "8",
+        1
+      ]
+    },
+    "class_type": "CFGGuider",
+    "_meta": {
+      "title": "CFGGuider"
+    }
+  },
+  "10": {
+    "inputs": {
+      "noise": [
+        "28",
+        0
+      ],
+      "guider": [
+        "9",
+        0
+      ],
+      "sampler": [
+        "29",
+        0
+      ],
+      "sigmas": [
+        "11",
+        0
+      ],
+      "latent_image": [
+        "7",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    }
+  },
+  "11": {
+    "inputs": {
+      "scheduler": "linear_quadratic",
+      "steps": 8,
+      "denoise": 1,
+      "model": [
+        "46",
+        0
+      ]
+    },
+    "class_type": "BasicScheduler",
+    "_meta": {
+      "title": "BasicScheduler"
+    }
+  },
+  "13": {
+    "inputs": {
+      "av_latent": [
+        "10",
+        0
+      ]
+    },
+    "class_type": "LTXVSeparateAVLatent",
+    "_meta": {
+      "title": "LTXVSeparateAVLatent"
+    }
+  },
+  "14": {
+    "inputs": {
+      "positive": [
+        "8",
+        0
+      ],
+      "negative": [
+        "8",
+        1
+      ],
+      "latent": [
+        "48",
+        0
+      ]
+    },
+    "class_type": "LTXVCropGuides",
+    "_meta": {
+      "title": "LTXVCropGuides"
+    }
+  },
+  "15": {
+    "inputs": {
+      "samples": [
+        "14",
+        2
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "16": {
+    "inputs": {
+      "samples": [
+        "48",
+        1
+      ],
+      "audio_vae": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "LTXVAudioVAEDecode",
+    "_meta": {
+      "title": "LTXV Audio VAE Decode"
+    }
+  },
+  "17": {
+    "inputs": {
+      "fps": [
+        "46",
+        5
+      ],
+      "images": [
+        "15",
+        0
+      ],
+      "audio": [
+        "16",
+        0
+      ]
+    },
+    "class_type": "CreateVideo",
+    "_meta": {
+      "title": "Create Video"
+    }
+  },
+  "26": {
+    "inputs": {
+      "conditioning": [
+        "46",
+        1
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "ConditioningZeroOut"
+    }
+  },
+  "28": {
+    "inputs": {
+      "noise_seed": 12
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": "RandomNoise"
+    }
+  },
+  "29": {
+    "inputs": {
+      "sampler_name": "euler"
+    },
+    "class_type": "KSamplerSelect",
+    "_meta": {
+      "title": "KSamplerSelect"
+    }
+  },
+  "30": {
+    "inputs": {
+      "filename_prefix": "video/LTX_Director",
+      "format": "auto",
+      "codec": "auto",
+      "video-preview": "",
+      "video": [
+        "17",
+        0
+      ]
+    },
+    "class_type": "SaveVideo",
+    "_meta": {
+      "title": "Save Video"
+    }
+  },
+  "46": {
+    "inputs": {
+      "global_prompt": "a woman singinging in a studio",
+      "duration_frames": 360,
+      "duration_seconds": 15,
+      "timeline_data": "{\"segments\":[{\"id\":\"1780172967960jfpr4\",\"start\":0,\"length\":202,\"prompt\":\"Selena Gomez wearing traditional Indian Ethnic wear while singing\",\"type\":\"text\"},{\"id\":\"1780212070120k604r\",\"start\":202,\"length\":38,\"prompt\":\"Woman singing while wearimg a sundress\",\"type\":\"text\"},{\"id\":\"17802122092663bl2z\",\"start\":240,\"length\":120,\"prompt\":\"\",\"type\":\"image\",\"imageFile\":\"woman.jpeg\",\"imageB64\":\"/api/view?filename=woman.jpeg&type=input&subfolder=\"}],\"audioSegments\":[{\"id\":\"1780205856123kdysy\",\"type\":\"audio\",\"start\":0,\"length\":363,\"trimStart\":436,\"audioDurationFrames\":5798,\"audioFile\":\"Kaun Tujhe (M.S. Dhoni - The Untold Story) by Palak Muchhal- Listen on Audiomack.m4a\",\"fileName\":\"Kaun Tujhe (M.S. Dhoni - The Untold Story) by Palak Muchhal- Listen on Audiomack.m4a\",\"waveformPeaks\":[0.9938374161720276,0.41512832045555115,0.30661648511886597,0.258934885263443,0.34424692392349243,0.2559264302253723,0.3369496762752533,0.9970719218254089,0.4868733584880829,0.282041996717453,0.3061217963695526,0.30664053559303284,0.2630397081375122,0.3935765326023102,0.45403704047203064,0.8708270788192749,0.85910564661026,0.6625669598579407,0.7206196188926697,0.7931748032569885,0.7284425497055054,0.6931341886520386,0.9488100409507751,0.9686280488967896,0.6808626055717468,0.5170212388038635,0.8945080041885376,0.7576280832290649,0.7237027883529663,1.0410480499267578,1.0232479572296143,1.0492777824401855,1.0138404369354248,1.048438310623169,1.0111844539642334,1.0192192792892456,1.0201900005340576,1.0469874143600464,0.9275920391082764,1.031550645828247,0.9911153316497803,0.8718518614768982,0.7670846581459045,0.6429390907287598,1.0818313360214233,1.0236579179763794,1.0366615056991577,1.0304341316223145,1.0297473669052124,1.0067074298858643,1.0370969772338867,1.0634922981262207,1.0505940914154053,1.0613465309143066,1.0390756130218506,1.0497385263442993,1.0227041244506836,1.0452022552490234,1.059070110321045,1.059082269668579,1.0105546712875366,1.0275263786315918,0.9984009265899658,1.0623670816421509,1.026223063468933,1.0098494291305542,1.0531351566314697,1.0288832187652588,1.0348678827285767,1.020038366317749,1.0428074598312378,1.039981722831726,1.0617958307266235,1.018181562423706,0.9955986142158508,0.7695820331573486,0.49236488342285156,0.7549216747283936,0.9125235676765442,0.6458961367607117,0.8585270047187805,1.05426824092865,1.0167471170425415,1.0157184600830078,1.0248863697052002,1.0756433010101318,1.0431755781173706,1.014194369316101,1.0594401359558105,1.042574405670166,1.0715622901916504,1.0366697311401367,1.0511785745620728,1.0608134269714355,0.9953253865242004,0.6118823885917664,1.0356734991073608,1.0359508991241455,1.010231375694275,1.0543104410171509,1.0011004209518433,1.0413411855697632,1.009029746055603,1.0712947845458984,1.0292432308197021,1.0529968738555908,1.017412543296814,0.7634413838386536,0.8547379374504089,0.7169522047042847,1.0516916513442993,1.0275373458862305,1.0442297458648682,1.039241075515747,1.0350990295410156,1.019105076789856,1.0556631088256836,1.0268689393997192,1.0557395219802856,0.9766809940338135,1.0497469902038574,1.0531200170516968,1.0257269144058228,1.0565053224563599,1.0168616771697998,1.0326602458953857,1.0596994161605835,1.053335428237915,1.02871835231781,1.0392053127288818,1.0146269798278809,1.0398882627487183,1.039621114730835,1.0336469411849976,1.030941367149353,1.0236225128173828,1.0524332523345947,1.020272970199585,1.0353864431381226,1.0305851697921753,0.9900399446487427,0.41110920906066895,0.18863515555858612,1.057371735572815,1.0443615913391113,1.000869870185852,1.0070574283599854,1.0488351583480835,1.005327820777893,1.0129777193069458,1.014789342880249,1.0643126964569092,1.0269516706466675,1.0685847997665405,0.9982989430427551,1.0355559587478638,1.0202816724777222,1.0171198844909668,1.044301986694336,1.081801176071167,1.040540337562561,1.0677107572555542,1.0708647966384888,1.0362287759780884,1.0395451784133911,0.8888842463493347,1.0637779235839844,1.0408363342285156,1.0122296810150146,1.0250657796859741,1.0117456912994385,1.0353726148605347,1.0205485820770264,1.0679463148117065,1.0096877813339233,1.0711190700531006,0.9060817360877991,0.8000226616859436,0.7893975973129272,0.6928698420524597,1.077255368232727,1.0446234941482544,1.0306570529937744,1.0255517959594727,1.0613727569580078,1.0402886867523193,1.0365511178970337,0.8358376622200012,1.031214714050293,1.0680036544799805,1.0314162969589233,1.008481502532959,1.0381168127059937,1.0310970544815063,1.0175889730453491,1.0061331987380981,0.5277529358863831,0.16748914122581482,0.06447035074234009,0.006621000822633505]}]}",
+      "local_prompts": "Selena Gomez wearing traditional Indian Ethnic wear while singing | Woman singing while wearimg a sundress | ",
+      "segment_lengths": "202,38,120",
+      "epsilon": 0.001,
+      "guide_strength": "1.00",
+      "use_custom_audio": true,
+      "frame_rate": 24,
+      "display_mode": "seconds",
+      "custom_width": 0,
+      "custom_height": 0,
+      "resize_method": "maintain aspect ratio",
+      "divisible_by": 32,
+      "img_compression": 18,
+      "timeline_ui": "",
+      "model": [
+        "79",
+        0
+      ],
+      "clip": [
+        "84",
+        0
+      ],
+      "audio_vae": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "LTXDirector",
+    "_meta": {
+      "title": "LTX Director"
+    }
+  },
+  "47": {
+    "inputs": {
+      "noise": [
+        "28",
+        0
+      ],
+      "guider": [
+        "49",
+        0
+      ],
+      "sampler": [
+        "53",
+        0
+      ],
+      "sigmas": [
+        "54",
+        0
+      ],
+      "latent_image": [
+        "50",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": "SamplerCustomAdvanced"
+    }
+  },
+  "48": {
+    "inputs": {
+      "av_latent": [
+        "47",
+        0
+      ]
+    },
+    "class_type": "LTXVSeparateAVLatent",
+    "_meta": {
+      "title": "LTXVSeparateAVLatent"
+    }
+  },
+  "49": {
+    "inputs": {
+      "cfg": 1,
+      "model": [
+        "46",
+        0
+      ],
+      "positive": [
+        "58",
+        0
+      ],
+      "negative": [
+        "58",
+        1
+      ]
+    },
+    "class_type": "CFGGuider",
+    "_meta": {
+      "title": "CFGGuider"
+    }
+  },
+  "50": {
+    "inputs": {
+      "video_latent": [
+        "58",
+        2
+      ],
+      "audio_latent": [
+        "13",
+        1
+      ]
+    },
+    "class_type": "LTXVConcatAVLatent",
+    "_meta": {
+      "title": "LTXVConcatAVLatent"
+    }
+  },
+  "52": {
+    "inputs": {
+      "samples": [
+        "55",
+        2
+      ],
+      "upscale_model": [
+        "57",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "LTXVLatentUpsampler",
+    "_meta": {
+      "title": "LTXVLatentUpsampler"
+    }
+  },
+  "53": {
+    "inputs": {
+      "sampler_name": "euler"
+    },
+    "class_type": "KSamplerSelect",
+    "_meta": {
+      "title": "KSamplerSelect"
+    }
+  },
+  "54": {
+    "inputs": {
+      "scheduler": "linear_quadratic",
+      "steps": 4,
+      "denoise": 0.42,
+      "model": [
+        "46",
+        0
+      ]
+    },
+    "class_type": "BasicScheduler",
+    "_meta": {
+      "title": "BasicScheduler"
+    }
+  },
+  "55": {
+    "inputs": {
+      "positive": [
+        "8",
+        0
+      ],
+      "negative": [
+        "8",
+        1
+      ],
+      "latent": [
+        "13",
+        0
+      ]
+    },
+    "class_type": "LTXVCropGuides",
+    "_meta": {
+      "title": "LTXVCropGuides"
+    }
+  },
+  "57": {
+    "inputs": {
+      "model_name": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
+    },
+    "class_type": "LatentUpscaleModelLoader",
+    "_meta": {
+      "title": "Load Latent Upscale Model"
+    }
+  },
+  "58": {
+    "inputs": {
+      "scale_by": 1,
+      "upscale_method": "bicubic",
+      "positive": [
+        "55",
+        0
+      ],
+      "negative": [
+        "55",
+        1
+      ],
+      "vae": [
+        "3",
+        0
+      ],
+      "latent": [
+        "52",
+        0
+      ],
+      "guide_data": [
+        "46",
+        4
+      ]
+    },
+    "class_type": "LTXDirectorGuide",
+    "_meta": {
+      "title": "LTX Director Guide"
+    }
+  },
+  "78": {
+    "inputs": {
+      "vae_name": "taeltx2_3.safetensors",
+      "device": "main_device",
+      "weight_dtype": "bf16"
+    },
+    "class_type": "VAELoaderKJ",
+    "_meta": {
+      "title": "Tiny VAELoader KJ"
+    }
+  },
+  "79": {
+    "inputs": {
+      "preview_rate": 24,
+      "model": [
+        "93",
+        0
+      ],
+      "vae": [
+        "78",
+        0
+      ]
+    },
+    "class_type": "LTX2SamplingPreviewOverride",
+    "_meta": {
+      "title": "LTX2 Sampling Preview Override"
+    }
+  },
+  "84": {
+    "inputs": {
+      "clip_name1": "gemma_3_12B_it_fp4_mixed.safetensors",
+      "clip_name2": "ltx-2.3-22b-dev_embeddings_connectors.safetensors",
+      "type": "ltxv",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "DualCLIPLoader"
+    }
+  },
+  "93": {
+    "inputs": {
+      "unet_name": "ltx-2.3-22b-distilled-1.1-Q4_K_M.gguf"
+    },
+    "class_type": "UnetLoaderGGUF",
+    "_meta": {
+      "title": "Unet Loader (GGUF)"
+    }
+  }
+}

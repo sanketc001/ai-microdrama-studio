@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Marta 'Switch' Alvarez",
+    "description": "A former subway electrician turned clandestine courier who transports memories on physical chips. Driven, guarded, flashes of warmth when alone with music. Haunted by a lost sister she once failed to protect.",
+    "look_prompt": "Portrait of a woman in her early 30s, olive skin, short choppy black hair with electric-blue undercut, thin scar along left eyebrow, wearing a grime-streaked reflective safety vest over a faded band tee, fingers stained with oil, small luminescent neural chip clasped between thumb and forefinger, neon subway lights reflecting in her dark eyes, cinematic shallow depth of field, high-contrast cyberpunk palette, rain-speckled window bokeh, hyperreal detail, photorealistic lighting",
+    "voice": "female, early-30s, raspy, quick, soft Spanish lilt",
+    "id": "175f9f64a122",
+    "custom": false,
+    "image": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\images\\175f9f64a122_00001_.png",
+    "voice_sample": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\audio\\voice_175f9f64a122.wav"
+  },
+  {
+    "name": "Professor Ivo Kestrel",
+    "description": "An aging cognitive linguist who writes lullabies that alter dreams. Polished, meticulous, secretly playful; hides a battered metronome that counts his darkest regret.",
+    "look_prompt": "Portrait of an elderly man, late 60s, pale freckled skin, thin wire-framed glasses, silver hair swept back, lab coat with embroidered constellations on the cuff, an antique brass metronome peeking from his pocket, warm tungsten rimlight on one side, library of worn books blurred in background, thoughtful half-smile, cinematic portrait, high-detail skin texture, soft-film grain",
+    "voice": "male, late-60s, measured, cultured, slight Eastern European cadence",
+    "id": "f0874fa83e3d",
+    "custom": false,
+    "image": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\images\\f0874fa83e3d_00001_.png",
+    "voice_sample": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\audio\\voice_f0874fa83e3d.wav"
+  },
+  {
+    "name": "Nova Qi",
+    "description": "A street magician who manipulates small gravity fields to perform impossible sleights. Charismatic, irreverent, always on the move; keeps a chipped porcelain rabbit token from childhood.",
+    "look_prompt": "Portrait of an androgynous young adult, smooth bronze skin, asymmetric platinum streak in short black hair, iridescent streetwear jacket that seems to shimmer, hands mid-gesture with faint visualized gravity ripples around a floating coin, alleyway neon reflections, dynamic rim lighting, cinematic motion-frozen composition, vivid colors, photorealistic detail",
+    "voice": "androgynous, mid-20s, lively, playful, light urban accent",
+    "id": "f77ce3c8051a",
+    "custom": false,
+    "image": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\images\\f77ce3c8051a_00001_.png",
+    "voice_sample": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\audio\\voice_f77ce3c8051a.wav"
+  },
+  {
+    "name": "Captain Mara Hargrove",
+    "description": "A retired cargo-ship captain who now pilots a one-woman rescue skiff across polluted seas. Stoic, weathered, unexpectedly tender with machines; keeps a salt-caked logbook of lost ports.",
+    "look_prompt": "Portrait of a woman in her late 40s, deeply tanned, wind-chapped skin, short cropped salt-and-pepper hair, brass earring shaped like an anchor, heavy oil-smeared jacket with ship insignia, distant storm-lit horizon reflected in her stern gaze, textured skin detail, cinematic stormy lighting, photorealistic maritime grit",
+    "voice": "female, late-40s, gravelly, steady, maritime burr",
+    "id": "0a08637254ea",
+    "custom": false,
+    "image": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\images\\0a08637254ea_00001_.png",
+    "voice_sample": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\audio\\voice_0a08637254ea.wav"
+  },
+  {
+    "name": "Cassian Bloom",
+    "description": "A corporate florist who cultivates illegal bioluminescent blooms used to transmit subversive messages. Elegantly eccentric, meticulous hands, hides revolutionary zeal beneath polite smiles.",
+    "look_prompt": "Portrait of a man in his early 40s, light brown skin, neatly trimmed beard, round tortoiseshell glasses, tailored blazer with soil traces on the cuffs, holding a glowing blue bioluminescent flower cupped in palms, botanical greenhouse blurred behind him with warm greenhouse lighting, high-detail texture, cinematic soft-focus, photorealistic rendering",
+    "voice": "male, early-40s, smooth, soft-spoken, cultured British undertone",
+    "id": "2e7191d64145",
+    "custom": false,
+    "image": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\images\\2e7191d64145_00001_.png",
+    "voice_sample": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\audio\\voice_2e7191d64145.wav"
+  },
+  {
+    "name": "Lina 'Patch' Osei",
+    "description": "A teenage hacker and textile artist who stitches analog circuitry into clothing to hide messages from surveillance. Inventive, warm, fiercely loyal; carries a spool of copper thread and a hand-me-down sewing thimble.",
+    "look_prompt": "Portrait of a teen girl, dark mahogany skin, braided hair interwoven with copper thread, oversized patched denim jacket covered in stitched circuit patterns, concentrated expression as she threads a needle, warm studio lighting with soft shadows, close-up on hands and face, intricate fabric texture, cinematic intimate portrait, photorealistic detail",
+    "voice": "female, late-teens, bright, earnest, slight West African accent",
+    "id": "b6647d0ca15d",
+    "custom": false,
+    "image": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\images\\b6647d0ca15d_00001_.png",
+    "voice_sample": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\audio\\voice_b6647d0ca15d.wav"
+  },
+  {
+    "name": "Detective Mara",
+    "description": "weary noir detective",
+    "look_prompt": "cinematic portrait of a weary female noir detective in a trench coat, dramatic lighting",
+    "voice": "female, middle-aged, low pitch",
+    "sample_text": "",
+    "id": "21de6f900eec",
+    "custom": true,
+    "voice_sample": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\audio\\voice_21de6f900eec.wav",
+    "image": "C:\\Users\\micke\\Desktop\\AI\\MicroDrama\\outputs\\images\\21de6f900eec_00001_.png"
+  }
+]

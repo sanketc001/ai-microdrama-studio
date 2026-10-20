@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Quiet Resolve",
+    "speaker": "Protagonist",
+    "text": "I won't leave until it's done.",
+    "voice": "calm_female",
+    "id": "90a5858397a3",
+    "custom": false
+  },
+  {
+    "name": "Threatened Smile",
+    "speaker": "Antagonist",
+    "text": "You think you can stop me? Cute.",
+    "voice": "gruff_male",
+    "id": "a8e325124a18",
+    "custom": false
+  },
+  {
+    "name": "Warm Reassure",
+    "speaker": "Friend",
+    "text": "I've got you. Breathe with me.",
+    "voice": "warm_male",
+    "id": "24366319e3be",
+    "custom": false
+  },
+  {
+    "name": "Passing Stranger",
+    "speaker": "Stranger",
+    "text": "Sometimes the smallest choice changes everything.",
+    "voice": "neutral_female",
+    "id": "5396fb3275cf",
+    "custom": false
+  },
+  {
+    "name": "Soft Wonder",
+    "speaker": "Child",
+    "text": "Will the stars remember us?",
+    "voice": "bright_child",
+    "id": "7b533311082c",
+    "custom": false
+  },
+  {
+    "name": "Measured Warning",
+    "speaker": "Guardian",
+    "text": "There are rules you don't break without consequence.",
+    "voice": "firm_female",
+    "id": "5bf7f36d151c",
+    "custom": false
+  },
+  {
+    "name": "Distant Echo",
+    "speaker": "Narrator",
+    "text": "The city held its breath between two heartbeats.",
+    "voice": "deep_narrator",
+    "id": "7db0b8ffe1c6",
+    "custom": false
+  },
+  {
+    "name": "Mechanical Calm",
+    "speaker": "AI",
+    "text": "Processing hope... 0.47 probability of success.",
+    "voice": "synthetic_male",
+    "id": "8a5590850da6",
+    "custom": false
+  }
+]

@@ -1,0 +1,10 @@
+# Core backend + Phase A (ComfyUI wrappers). Install in the `microdrama` env.
+requests
+websocket-client
+fastapi
+uvicorn[standard]
+python-multipart
+openai
+sqlmodel
+huggingface_hub
+pillow

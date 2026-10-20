@@ -1,0 +1,69 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Local tooling / assistant config
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Model weights (downloaded at runtime)
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+
+# Generated media, sessions, logs
+outputs/
+logs/
+*.log
+*.pid
+
+# Original ComfyUI exports (canonical copies live in workflows/)
+/T2I-ZImageTurbo.json
+/flux2_klein_image_edit_9b_base.json
+/multi-image_flux2_klein_image_edit_9b_base.json
+/ltx director.json
+
+# Archives / OS cruft
+*.zip
+*.7z
+.DS_Store
+Thumbs.db
+
+# Third-party code (Wan2GP / OmniVoice port) - fetch separately, see README
+microdrama/tts/_vendor/
+
+# Media and model files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.webm
+*.mov
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.onnx
+*.npy
