@@ -67,3 +67,7 @@ microdrama/tts/_vendor/
 *.ogg
 *.onnx
 *.npy
+
+# README showcase media
+!docs/
+!docs/**

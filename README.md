@@ -8,6 +8,22 @@ a single LTX-Video pass on a local ComfyUI.
 Everything (code, presets, generated media, ported model code) lives inside this
 project directory.
 
+<!-- showcase -->
+![Director's console](docs/console.jpg)
+
+**From still to edit to moving shot.** A scene still (Z-Image), the same frame re-lit as a rainy
+night with Flux.2 Klein image editing, and the LTX-Video clip rendered from it:
+
+![Generated still and its Flux.2 night edit](docs/still_to_edit.jpg)
+
+![LTX-Video clip rendered from the edited frame](docs/clip.gif)
+
+Character portraits generated for the cast library:
+
+![Two generated character portraits](docs/characters.jpg)
+
+*All images and video above were generated locally by this pipeline.*
+
 ## How it works
 
 | Layer | What | Where |
